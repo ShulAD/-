@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{073625FC-4320-4FBE-97FD-F131ABADA001}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>КП</RootNamespace>
+    <AssemblyName>КП</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>school_4664.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Choose.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Choose.Designer.cs">
+      <DependentUpon>Choose.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Praktika.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Praktika.Designer.cs">
+      <DependentUpon>Praktika.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Theory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Theory.Designer.cs">
+      <DependentUpon>Theory.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Choose.resx">
+      <DependentUpon>Choose.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Praktika.resx">
+      <DependentUpon>Praktika.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Theory.resx">
+      <DependentUpon>Theory.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Resources\one.mht" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Release\ресурсы\Снимок74.JPG" />
+    <None Include="bin\Release\ресурсы\Снимок75.JPG" />
+    <None Include="bin\Release\ресурсы\Снимок76.JPG" />
+    <None Include="bin\Release\ресурсы\Снимок77.JPG" />
+    <None Include="bin\Release\ресурсы\Снимок78.JPG" />
+    <None Include="bin\Release\ресурсы\Снимок79.JPG" />
+    <None Include="bin\Release\ресурсы\Снимок80.JPG" />
+    <None Include="bin\Release\ресурсы\Снимок81.JPG" />
+    <None Include="bin\Release\ресурсы\1.html" />
+    <None Include="bin\Release\ресурсы\2.html" />
+    <None Include="bin\Release\ресурсы\3.html" />
+    <None Include="bin\Release\ресурсы\4.html" />
+    <None Include="bin\Release\ресурсы\5.html" />
+    <None Include="bin\Release\ресурсы\6.html" />
+    <None Include="bin\Release\ресурсы\7.html" />
+    <None Include="bin\Release\ресурсы\Style.css" />
+    <None Include="bin\Release\ресурсы\Снимок1.JPG" />
+    <None Include="bin\Release\ресурсы\Снимок2.JPG" />
+    <None Include="bin\Release\ресурсы\Снимок3.JPG" />
+    <None Include="bin\Release\ресурсы\Снимок4.JPG" />
+    <None Include="bin\Release\ресурсы\Снимок5.JPG" />
+    <None Include="bin\Release\ресурсы\Снимок6.JPG" />
+    <None Include="bin\Release\ресурсы\Снимок7.JPG" />
+    <None Include="bin\Release\ресурсы\Снимок8.JPG" />
+    <None Include="bin\Release\ресурсы\Снимок9.JPG" />
+    <None Include="bin\Release\ресурсы\Снимок10.JPG" />
+    <None Include="bin\Release\ресурсы\Снимок11.JPG" />
+    <None Include="bin\Release\ресурсы\Снимок12.JPG" />
+    <None Include="bin\Release\ресурсы\Снимок13.JPG" />
+    <None Include="bin\Release\ресурсы\Снимок14.JPG" />
+    <None Include="bin\Release\ресурсы\Снимок15.JPG" />
+    <None Include="bin\Release\ресурсы\Снимок16.JPG" />
+    <None Include="bin\Release\ресурсы\Снимок17.JPG" />
+    <None Include="bin\Release\ресурсы\Снимок18.JPG" />
+    <None Include="bin\Release\ресурсы\Снимок19.JPG" />
+    <None Include="bin\Release\ресурсы\Снимок20.JPG" />
+    <None Include="bin\Release\ресурсы\Снимок21.JPG" />
+    <None Include="bin\Release\ресурсы\Снимок22.JPG" />
+    <None Include="bin\Release\ресурсы\Снимок23.JPG" />
+    <None Include="bin\Release\ресурсы\Снимок24.JPG" />
+    <None Include="bin\Release\ресурсы\Снимок25.JPG" />
+    <None Include="bin\Release\ресурсы\Снимок26.JPG" />
+    <None Include="bin\Release\ресурсы\Снимок27.JPG" />
+    <None Include="bin\Release\ресурсы\Снимок28.JPG" />
+    <None Include="bin\Release\ресурсы\Снимок29.JPG" />
+    <None Include="bin\Release\ресурсы\Снимок30.JPG" />
+    <None Include="bin\Release\ресурсы\Снимок31.JPG" />
+    <None Include="bin\Release\ресурсы\Снимок32.JPG" />
+    <None Include="bin\Release\ресурсы\Снимок33.JPG" />
+    <None Include="bin\Release\ресурсы\Снимок34.JPG" />
+    <None Include="bin\Release\ресурсы\Снимок35.JPG" />
+    <None Include="bin\Release\ресурсы\Снимок36.JPG" />
+    <None Include="bin\Release\ресурсы\Снимок37.JPG" />
+    <None Include="bin\Release\ресурсы\Снимок38.JPG" />
+    <None Include="bin\Release\ресурсы\Снимок39.JPG" />
+    <None Include="bin\Release\ресурсы\Снимок40.JPG" />
+    <None Include="bin\Release\ресурсы\Снимок41.JPG" />
+    <None Include="bin\Release\ресурсы\Снимок42.JPG" />
+    <None Include="bin\Release\ресурсы\Снимок43.JPG" />
+    <None Include="bin\Release\ресурсы\Снимок44.JPG" />
+    <None Include="bin\Release\ресурсы\Снимок45.JPG" />
+    <None Include="bin\Release\ресурсы\Снимок46.JPG" />
+    <None Include="bin\Release\ресурсы\Снимок47.JPG" />
+    <None Include="bin\Release\ресурсы\Снимок48.JPG" />
+    <None Include="bin\Release\ресурсы\Снимок49.JPG" />
+    <None Include="bin\Release\ресурсы\Снимок50.JPG" />
+    <None Include="bin\Release\ресурсы\Снимок51.JPG" />
+    <None Include="bin\Release\ресурсы\Снимок52.JPG" />
+    <None Include="bin\Release\ресурсы\Снимок53.JPG" />
+    <None Include="bin\Release\ресурсы\Снимок54.JPG" />
+    <None Include="bin\Release\ресурсы\Снимок55.JPG" />
+    <None Include="bin\Release\ресурсы\Снимок56.JPG" />
+    <None Include="bin\Release\ресурсы\Снимок57.JPG" />
+    <None Include="bin\Release\ресурсы\Снимок58.JPG" />
+    <None Include="bin\Release\ресурсы\Снимок59.JPG" />
+    <None Include="bin\Release\ресурсы\Снимок60.JPG" />
+    <None Include="bin\Release\ресурсы\Снимок61.JPG" />
+    <None Include="bin\Release\ресурсы\Снимок62.JPG" />
+    <None Include="bin\Release\ресурсы\Снимок63.JPG" />
+    <None Include="bin\Release\ресурсы\Снимок64.JPG" />
+    <None Include="bin\Release\ресурсы\Снимок65.JPG" />
+    <None Include="bin\Release\ресурсы\Снимок66.JPG" />
+    <None Include="bin\Release\ресурсы\Снимок67.JPG" />
+    <None Include="bin\Release\ресурсы\Снимок68.JPG" />
+    <None Include="bin\Release\ресурсы\Снимок69.JPG" />
+    <None Include="bin\Release\ресурсы\Снимок70.JPG" />
+    <None Include="bin\Release\ресурсы\Снимок71.JPG" />
+    <None Include="bin\Release\ресурсы\Снимок72.JPG" />
+    <None Include="bin\Release\ресурсы\Снимок73.JPG" />
+    <None Include="bin\Debug\ресурсы\Style.css" />
+    <None Include="bin\Debug\ресурсы\1.html" />
+    <None Include="bin\Debug\ресурсы\one.html" />
+    <Content Include="school_4664.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 и x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>Клиентский профиль .NET Framework 3.5 с пакетом обновления 1 %28SP1%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

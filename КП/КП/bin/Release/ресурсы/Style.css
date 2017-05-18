@@ -1,0 +1,18 @@
+p {
+text-align:justify;
+text-indent: 1.5em;
+color:black;
+font-size:16px;
+vertical-align:middle;
+}
+table
+{
+border: 2px solid black;
+
+}
+h1
+{
+font-size:18px;
+}
+.pic {text-align: center;
+	  vertical-align:middle;}

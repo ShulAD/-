@@ -1,0 +1,44 @@
+C:\Users\Алексей\Desktop\Курсовой проект\КП\КП\bin\Debug\КП.exe.config
+C:\Users\Алексей\Desktop\Курсовой проект\КП\КП\bin\Debug\КП.exe
+C:\Users\Алексей\Desktop\Курсовой проект\КП\КП\bin\Debug\КП.pdb
+C:\Users\Алексей\Desktop\Курсовой проект\КП\КП\obj\Debug\КП.csprojResolveAssemblyReference.cache
+C:\Users\Алексей\Desktop\Курсовой проект\КП\КП\obj\Debug\КП.Properties.Resources.resources
+C:\Users\Алексей\Desktop\Курсовой проект\КП\КП\obj\Debug\КП.csproj.GenerateResource.Cache
+C:\Users\Алексей\Desktop\Курсовой проект\КП\КП\obj\Debug\КП.exe
+C:\Users\Алексей\Desktop\Курсовой проект\КП\КП\obj\Debug\КП.pdb
+C:\Users\Алексей\Desktop\Курсовой проект\КП\КП\obj\Debug\КП.Main.resources
+C:\Users\Алексей\Desktop\Курсовой проект\КП\КП\obj\Debug\КП.Test.resources
+C:\Users\Алексей\Desktop\Курсовой проект\КП\КП\obj\Debug\КП.Theory.resources
+C:\Users\Алексей\Desktop\Курсовой проект\КП\КП\obj\Debug\КП.Praktika.resources
+C:\Users\Алексей\Desktop\Курсовой проект\КП\КП\obj\Debug\КП.Choose.resources
+C:\Users\Алексей\Desktop\Курсовой проект\КП\КП\obj\Debug\КП.TheoryTest.resources
+C:\Users\Алексей\Desktop\Новая папка\Курсовой проект\КП\КП\bin\Debug\КП.exe.config
+C:\Users\Алексей\Desktop\Новая папка\Курсовой проект\КП\КП\obj\Debug\КП.exe
+C:\Users\Алексей\Desktop\Новая папка\Курсовой проект\КП\КП\obj\Debug\КП.pdb
+C:\Users\Алексей\Desktop\Новая папка\Курсовой проект\КП\КП\bin\Debug\КП.exe
+C:\Users\Алексей\Desktop\Новая папка\Курсовой проект\КП\КП\bin\Debug\КП.pdb
+C:\Users\Алексей\Desktop\Новая папка\Курсовой проект\КП\КП\obj\Debug\КП.csprojResolveAssemblyReference.cache
+C:\Users\Алексей\Desktop\Новая папка\Курсовой проект\КП\КП\obj\Debug\КП.Choose.resources
+C:\Users\Алексей\Desktop\Новая папка\Курсовой проект\КП\КП\obj\Debug\КП.Main.resources
+C:\Users\Алексей\Desktop\Новая папка\Курсовой проект\КП\КП\obj\Debug\КП.Praktika.resources
+C:\Users\Алексей\Desktop\Новая папка\Курсовой проект\КП\КП\obj\Debug\КП.Properties.Resources.resources
+C:\Users\Алексей\Desktop\Новая папка\Курсовой проект\КП\КП\obj\Debug\КП.Test.resources
+C:\Users\Алексей\Desktop\Новая папка\Курсовой проект\КП\КП\obj\Debug\КП.Theory.resources
+C:\Users\Алексей\Desktop\Новая папка\Курсовой проект\КП\КП\obj\Debug\КП.TheoryTest.resources
+C:\Users\Алексей\Desktop\Новая папка\Курсовой проект\КП\КП\obj\Debug\КП.csproj.GenerateResource.Cache
+C:\Users\Алексей\Desktop\Курсовой проект(готовое)\Исходники\КП\КП\bin\Debug\КП.exe.config
+C:\Users\Алексей\Desktop\Курсовой проект(готовое)\Исходники\КП\КП\obj\Debug\КП.exe
+C:\Users\Алексей\Desktop\Курсовой проект(готовое)\Исходники\КП\КП\obj\Debug\КП.pdb
+C:\Users\Алексей\Desktop\Диплом\Исходники\КП\КП\bin\Debug\КП.exe.config
+C:\Users\Алексей\Desktop\Диплом\Исходники\КП\КП\obj\Debug\КП.exe
+C:\Users\Алексей\Desktop\Диплом\Исходники\КП\КП\obj\Debug\КП.pdb
+C:\Users\Алексей\Desktop\Диплом\Исходники\КП\КП\bin\Debug\КП.exe
+C:\Users\Алексей\Desktop\Диплом\Исходники\КП\КП\bin\Debug\КП.pdb
+C:\Users\Алексей\Desktop\Диплом\Исходники\КП\КП\obj\Debug\КП.csprojResolveAssemblyReference.cache
+C:\Users\Алексей\Desktop\Диплом\Исходники\КП\КП\obj\Debug\КП.Main.resources
+C:\Users\Алексей\Desktop\Диплом\Исходники\КП\КП\obj\Debug\КП.Praktika.resources
+C:\Users\Алексей\Desktop\Диплом\Исходники\КП\КП\obj\Debug\КП.Properties.Resources.resources
+C:\Users\Алексей\Desktop\Диплом\Исходники\КП\КП\obj\Debug\КП.Theory.resources
+C:\Users\Алексей\Desktop\Диплом\Исходники\КП\КП\obj\Debug\КП.csproj.GenerateResource.Cache
+C:\Users\Алексей\Desktop\Диплом\Исходники\КП\КП\obj\Debug\КП.Form2.resources
+C:\Users\Алексей\Desktop\Диплом\Исходники\КП\КП\obj\Debug\КП.Choose.resources
